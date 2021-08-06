@@ -58,20 +58,15 @@ h1, h2, h3, h4 {
 
 .intro__undertitle {
     font-size: 24px;
-    font-weight: lighter; 
-    font-weight: bold;
+    font-weight: lighter;
     color: white;  
-    margin: 25px auto 0; 
-       
+    margin: 25px auto 0;
 }
 
 .header {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__inner {
@@ -80,13 +75,6 @@ h1, h2, h3, h4 {
     align-items: center;
     margin-top: 21px;
     margin-bottom: 21px;
-}
-
-.header__logo {
-    width: 206px;
-    height: 106px;
-    background: url("../images/Bella.png") left no-repeat;
-    
 }
 
 .nav {
@@ -252,10 +240,8 @@ h1, h2, h3, h4 {
 
 .end__content {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    width: 579px;
-    height: 811px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
